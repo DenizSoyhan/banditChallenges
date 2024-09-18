@@ -1,0 +1,13 @@
+you have to the the usual cloning stuff that you did in the previous levels. And the password is concealed and the older commits is also like that. So you go to the other branches and in the branch named "dev" the password is revealed. You can see all the branches:
+
+git branch -a
+
+and you can jump to the branch by:
+
+git checkout dev
+
+and the password is revelaed.
+
+password:
+
+qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL

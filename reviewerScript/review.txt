@@ -1,0 +1,146 @@
+0:1
+
+"!!! Guest üstünden servera bağlanılamıyor biz ettik siz etmeyin direk telefonunuzu hotspot olarak kullanıp yapın"
+
+1:1
+
+"Readme içinde çok basit"
+
+2:2
+
+"İsimlerinde özel karakter geçen dosyalar ile ilgilenmeyi öğretiyor"
+
+3:1
+
+"Boşluklu isme sahip dosyalar"
+
+4:2
+
+"ls ile ilgili öğreneceğiz ilk şeylerden biri"
+
+5:3
+
+"Birçok yolu var ama kafaya çok yatmıyor o yüzden biraz daha yüksek verdim"
+
+6:3
+
+"ls ile derin dosya araması yapmak"
+
+7:4
+
+"find ile çok spesifik bir dosya araması ilk zor gibi soru"
+
+8:2
+
+"grep ile bir soru giriş mahiyetinde"
+
+9:5
+
+"File manipulation. Sort ve uniq ile biraz spesifik şeyler yapmak gerek"
+
+10:3
+
+"grep ile aynı dakika içinde önüme düştü ve aslında şans olabilir eğer zorlanırsanız bulmakta anlayabilirim"
+
+11:2
+
+"Direk çevirme var."
+
+12:5
+
+"tr ile yapabildiğiniz çok tatlı bir etkinlik en sevdiğim puzzle bu olabilir"
+
+13:15
+
+"!!!!!!!! Kendisinden önce gelen soru ile arasında bu kadar fark olan başka bir soru yok. Bir önceki sorular gibi sadece hexdump değil, file encoding decoding ve file signatureların ne olduğu bilgisi gerekiyor. Kendi başlarına kolay olan bu konseptler tanıtım olması gereken bir soru içinde çok can sıkıcı hale geliyor. Lazım olacak şeyler en az yardım edenden en çoğuna doğru:
+https://en.wikipedia.org/wiki/List_of_file_signatures
+
+https://linuxize.com/post/how-to-create-and-extract-archives-using-the-tar-command-in-linux/
+
+https://www.geeksforgeeks.org/bzip2-command-in-linux-with-examples/
+
+https://linuxize.com/post/gzip-command-in-linux/
+ 
+https://www.youtube.com/watch?v=1qRaNjHEq50
+"
+
+14:6
+
+"RSA key ile ilgili sorular bunu iyi öğrenmek lazım çünkü ilerdekilerde çok çok çıkıyor"
+
+15:5
+
+"netcat ile çözülebilen bir soru"
+
+16:6
+
+"openssl ile çözülüyor port numarası belirterek. Eğer KEYUPDATE DONE gibi hatalar alıyorsanız s_client manueline bakabilirsiniz. İPUCU: işiniz -quiet optionı ile"
+
+17:8
+
+"Yukarıdaki bir hata çözdüğüm bu problemde 1 saat takılmama sebep oldu o yüzden bu puanda yoksa level iyi baya"
+
+18:3
+
+"string comparison vs vs"
+
+19:7
+
+"İPUCU :  Pseudo terminal allocation"
+
+20:7
+
+"setuid dosyası çalıştırıldığında dediği id oraya komut yaz demek. kullanıcı idsi falan değil normal cat, echo , ls falan kastediyor"
+
+21:10
+
+"Bundan önce network incelemesi için öğrendiğin her şeyi kullanıyorsun."
+
+22:7
+
+"ekmek kırıntılarını takip ede ede gidiyorsun en iyi levellerden biri"
+
+23:0
+
+"Neden olduğunu bilmiyorum ama bandit 22 bana 24ün şifresini verdi ve girebiliyordum."
+
+24:7
+
+"22 ile aynı muhabbet"
+
+25:9
+
+"İlk gerçek shellscript ve brute force sorusu. Zor ama ne yapman gerektiği çok açık. Önerim direk porta şifre ve yaratılan PIN'leri göndermek yerine bir listeye stringleri generatelemek ve onu beslemek ncat ile"
+
+26:18
+
+"!!!!!! 10 dk denedikten sonra direk walkthrough bakılması en iyisi. Yapman gereken şeyi düşünebilmen için ya sayfalarca abstract bi command olan "move" hakkında okuma yapman lazım ya da önceden biliyor olman lazım. Çözüm o kadar sinirlendirici ki bence en zor soru buydu. Bu sorudan öğrenmen gereken en önemli şey bin/bash boot sırasında ne yapıyor ve passwd dosyası ki ismine kanmayın eskiden password sakladığı için böyle kalmış artık bunu yapmıyor."
+
+27:7
+
+"bandit passwordlarının nerede saklandığını bulman lazım ve önceki sorularda gitmiş olman lazım bu dosyaya çoktan. her bandit sadece kendi passwordunu görebiliyor"
+
+28:2
+
+"git komutları öğrenmeni istiyor o yüzden kolaylaştı sorular"
+
+29:3
+
+"git previous commits"
+
+30:4
+
+"git branches"
+
+31:6
+
+"tags"
+
+32:4
+
+"git push"
+
+33:11
+
+"!! bash script tutorialı baktıktan sonra bu çok daha kolay gözüküyor ama ilk kez giren biri için bence nereye bakmamız gerektiğini eksik veriyor soru. Araştırıp öğrenmen gereken şey "positional parameter" diye bir şey"
+

@@ -1,0 +1,30 @@
+I used this command to search for the ports that are available:
+
+nmap -p 30000-32000 --script ssl-cert localhost
+this gave me 5 ports which only 2 of them was using ssl. I connected them with:
+
+openssl s_client -connect localhost:31790
+
+which gave me all the credentials of the port BUT IT GAVE ME A STUPID ERROR THAT SAID:
+
+read R BLOCK
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+KEYUPDATE
+
+only way to bypass this problem is to connect the host with an extra option called -quiet . this error occures because of a bottleneck where the license information is displayed. You can read about DONE”, “RENEGOTIATING” or “KEYUPDATE”? Read the “CONNECTED COMMANDS” section in the manpage of s_client
+
+the new code to connect:
+
+openssl s_client -quiet -connect localhost:31790
+
+
+copy pasted the key as sshkey2.private . Then put the key into to .ssh folder in home directory that let me connect to bandit17 with privatekey. the private key needs to be properly kept or it will be ignored. putting it in the .ssh file and also entering this command made sure of that:
+
+sudo chmod 600 ~/.ssh/sshkey2.private
+
+and then I connect to the bandit14 without a password using this command:
+
+ssh -i ~/.ssh/sshkey2.private bandit17@bandit.labs.overthewire.org -p 2220
+
+-i specifies the location of the key
+

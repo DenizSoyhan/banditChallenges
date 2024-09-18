@@ -1,0 +1,17 @@
+there is this setuserid file which gives you temporarily higher privelege. You need 2 terminal connections for this puzzle and we need a port to connect to first:
+
+nmap localhost 
+
+to see which ports are open. the 1234 port looked fine.
+
+in one terminal I connected to the server and then the port by:
+
+nc -vl 127.0.0.1 1234 with this command you can listen to this localhost port and I used setuserid executable and send the password with echo and connect it using the ncat command:
+
+./suconnect 1234 echo "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" |nc localhost 1234
+
+the password is revealed on the listening terminal
+
+password:
+
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt

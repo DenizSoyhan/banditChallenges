@@ -1,0 +1,3 @@
+level3 deals with "spaces in file names" literally where it tries to teach why you should avoid using spaces in file and directory names. And how to deal with the problems that it creates. You can avoid it by specifying the file name in " file name " or use escape characters after every word which is tedious and weird looking: cat file\ name\ with\ spaces.
+password:
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx

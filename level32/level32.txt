@@ -1,0 +1,21 @@
+the cloning stuff as usual and then README.md reads:
+
+This time your task is to push a file to the remote repository.
+
+Details:
+    File name: key.txt
+    Content: 'May I come in?'
+    Branch: master
+
+you create a file with these credentials and then do the git adding to stage stuff, commiting and lastly pushing:
+
+git add key.txt -f
+
+git commit -m "placeholderMessage"
+
+git push origin master
+
+
+password:
+
+3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K

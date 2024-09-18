@@ -1,0 +1,15 @@
+again with the cloning stuff and then you see that there is no older commits or any other branches. You check for something called "tags":
+
+git tag -l
+
+which gives you this output:
+secret
+
+to see the tag you need to use:
+
+git show secret
+
+which will reveal the password
+password:
+
+fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy

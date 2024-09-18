@@ -1,0 +1,11 @@
+bandit10@bandit:~$ base64 -d <<< cat data.txt and you can see the password
+
+
+bandit10@bandit:~$ cat data.txt 
+VGhlIHBhc3N3b3JkIGlzIGR0UjE3M2ZaS2IwUlJzREZTR3NnMlJXbnBOVmozcVJyCg==
+bandit10@bandit:~$ base64 -d <<< cat data.txt 
+The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+password:
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+

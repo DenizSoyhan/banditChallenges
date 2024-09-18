@@ -1,0 +1,11 @@
+you have to do the exact stuff from the last level. It will give you a file and the password section is xxxxxxxxx so you need to investigate the previous versions of the repo. You can use:
+
+git log = to see previous commits and you can use this command below to revert the changes to that snapshot with the hash associated with snapshot:
+
+git checkout 73f5d0435070c8922da12177dc93f40b2285e22a
+
+then you can read the file and see the password
+
+password:
+
+4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7

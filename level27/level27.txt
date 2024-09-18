@@ -1,0 +1,6 @@
+You are on the weird environment because of level26. there is a file called bandit27-do which is a setuid file. you can use it to extract the password from /etc/bandit_pass directory with this comment:
+
+~/./bandit27-do cat bandit27 (#i was in the /etc/bandit_pass directory so I can used setuid form a far.
+
+password:
+upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB

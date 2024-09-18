@@ -1,0 +1,6 @@
+contents of the data.txt is copy pasted into unsorted.txt and then I used 
+sort unsorted.txt > sorted.txt to make them sorted if you don't sort them first it will count every new encounter as 1 and it will be a really long list. -c is expecting a sorted list.
+and then uniq -c sorted.txt | less to see how many times each line are present. the count with "1" was the password.
+
+password:
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM

@@ -1,0 +1,3 @@
+use cat < -file07 like level 2 to see file contents
+
+password to go level 5: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw

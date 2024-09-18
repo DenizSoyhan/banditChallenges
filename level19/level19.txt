@@ -1,0 +1,9 @@
+I used the option -T additionally to ssh command:
+
+ssh -T bandit18@bandit.labs.overthewire.org -p 2220
+
+which make Disable pseudo-terminal allocation.
+
+password:
+
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
