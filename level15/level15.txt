@@ -1,0 +1,10 @@
+you can go and see the contents of /etc/bandit_pass/bandit14 to find the password to proceed level15:
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+to connect to the localhost port30000
+
+you will use:
+nc localhost 30000 and then enter the password given above.
+and it will give you the password:
+
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo

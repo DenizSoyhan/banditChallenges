@@ -1,0 +1,5 @@
+you can solve the ceaser cypher rot13 by using transform command and attending the letters to corresping letters in the cyper.
+cat data.txt | tr "A-Za-z" "N-ZA-Mn-za-m" will give you the correct result.
+
+password:
+7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4

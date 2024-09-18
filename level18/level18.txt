@@ -1,0 +1,5 @@
+dif passwords.new passwords.old
+
+password:
+
+x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO

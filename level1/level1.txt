@@ -1,0 +1,6 @@
+find the readme file on bandit0. It includes the password. 
+
+password:
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+Then connect to bandit1 with the same hostname and port. Use the newly found pasword.

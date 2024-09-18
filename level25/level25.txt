@@ -1,0 +1,10 @@
+I wrote a shellscript in the tmp file that is in this file also. I gave it executable properties and then ran it
+
+It generated a list that I fed into the port prompt using:
+
+cat list.txt | nc localhost 30002
+
+
+The password of user bandit25 is 
+
+iCi86ttT4KSNe1armKiwbQNmB3YJP3q4

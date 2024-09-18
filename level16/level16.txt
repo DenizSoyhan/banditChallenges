@@ -1,0 +1,12 @@
+you can connect to the port with correct inscription with the command:
+
+openssl s_client -connect localhost:30001
+
+then feeding it the previous password which is:
+
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+will give you the answer.
+
+password:
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx

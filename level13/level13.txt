@@ -1,0 +1,23 @@
+12->13 was the hardest one so far by a mile. 
+
+the data.txt file that I found was in a format called hexdump. this format normally gives hexadecimal encoded versions of every 8 bites and then you can see the ASCII text right next to it but this file was encrypted MULTIPLE times.
+
+So I needed to find the encryption method for the file and then unzip it. 
+the first characters of hexdump gives the signature of the encoding. List of signatures can be found here:
+
+https://en.wikipedia.org/wiki/List_of_file_signatures
+
+in this problem bz2, gz and tar compression methods. the first signature leads you to gz or tar.gz which if you choose gz after the second compression you will loop back. so the answer is archivel compression "tar". tar will give you another file which then you can unzip until the data8 is found. then that file is human readable. while unzipping and decoding all these files you need to change the file suffixes to appropriate suffixes like a gz file needs to have .gz at the end. data8.bin will not be undecoded with gz commands.
+
+https://linuxize.com/post/how-to-create-and-extract-archives-using-the-tar-command-in-linux/
+
+https://www.geeksforgeeks.org/bzip2-command-in-linux-with-examples/
+
+https://linuxize.com/post/gzip-command-in-linux/
+
+this video helped a lot: https://www.youtube.com/watch?v=1qRaNjHEq50
+
+
+
+The password is 
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn

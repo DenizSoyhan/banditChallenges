@@ -1,0 +1,12 @@
+git clone command will create a clone of the given repository
+and it will create a file on the local machine. In order to create
+a file on bandit server you need to go to the tmp file.
+
+ssh://bandit27-git@localhost:2220/home/bandit27-git/repoCloning
+
+don't forget to specify port number after the local host 
+or it will not work.
+
+password:
+
+Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN

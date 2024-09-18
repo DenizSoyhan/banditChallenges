@@ -1,0 +1,6 @@
+the password is hidden in the root directory of the game server. you need to find a file that is 33byte in size, owned by user bandit7 and group bandit6. this comment will show you those file but there would be a lot of files that you don't have permission to look so everything gets really messy so we add a little query by the end:
+find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+to read more about the query: https://stackoverflow.com/questions/762348/how-can-i-exclude-all-permission-denied-messages-from-find
+
+password:
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj

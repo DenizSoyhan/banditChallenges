@@ -1,0 +1,27 @@
+this is one of the more frustrating levels. You are told that bandit26 isn't running on /bin/bash. And it kicks you out even if you have the ssh private key. You need to go and cat the etc/passwd to see what is it running on startup:
+
+/etc$ cat passwd
+
+it will show you it starts up a script that is located in:
+
+/usr/bin/showtext
+
+when you go and inspect this file it shows the following script: (#my comments)
+
+#!/bin/sh
+
+export TERM=linux
+
+exec more ~/text.txt   (#this will execute a command called more and use text.txt as input)
+exit 0		     (#it terminates the session)			
+
+you need to change the shell startup so it doesnt kick you out.You do this by making the connection terminal to bandit26 very small so it doesn't load up image and the "more" function can be abused. It is stuck in this stage and you can just press "v" to activate a vim and from there you can run shell scripts such as:
+
+:set shell? = to see what it is running which will be text.txt
+:set shell=/bin/bash = to set the starting to something else otherwise every single action will load the text.txt thus kicking you out
+:shell = you can invoke the shell and use it like normal
+
+password:
+
+
+s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ

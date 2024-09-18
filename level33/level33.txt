@@ -1,0 +1,6 @@
+this level is really frustirating. It puts you in a running loop of a program and it makes all your commands uppercase so you can't controll the shell. But you can escape it by using something called "positional parameters". so basically $0 is the first thing in the line and it will write that when you called it with  $. and $0 in this case is "sh" command and it will spawn a shell for us that we can navigate to etc/bandit_pass/ to look at the pass for bandit33:
+
+$0
+
+password:
+tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0

@@ -1,0 +1,14 @@
+I copied the ssh Private key to my machine. Then put the key into to .ssh folder in home directory that let me connect to bandit14 with privatekey. the private key needs to be properly kept or it will be ignored. putting it in the .ssh file and also entering this command made sure of that:
+
+sudo chmod 600 ~/.ssh/sshkey.private
+
+and then I connect to the bandit14 without a password using this command:
+
+ssh -i ~/.ssh/sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+
+-i specifies the location of the key
+
+then when I go and take a look at: /etc/bandit_pass/bandit14
+I found this password which will be used to get to the bandit15 but I will leave here as well as they are related.
+
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS

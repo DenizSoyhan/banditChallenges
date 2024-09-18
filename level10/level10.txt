@@ -1,0 +1,4 @@
+cat data.txt | grep -a "=" data.txt 
+will highlight the = and then you can manually see all the lines and there is a very big cluster of ='s and they are followed by a suspicious looking string that is the password
+password:
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey

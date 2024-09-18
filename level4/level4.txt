@@ -1,0 +1,3 @@
+level4'da ls komutuna ek olarak -la veya -a ekleyerek gizli dosyayı görüntülüyoruz. Dosya bize .. ve root . dosyası dışında şaşırtmaca olması için ... ile başlıyor. Bunu directory zannedip harflerle başlarsak takılıyoruz. Tam olarak göründüğü gibi ...Hiding-From-You yazarak dosyayı okuyabiliriz. 
+password:
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ

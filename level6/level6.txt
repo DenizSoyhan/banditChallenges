@@ -1,0 +1,3 @@
+ls -laR is used to see directory details and also all of the subfolders in a directory that you are in. after that the hidden file .file02 in maybehere07 directory contains the password to move on level6
+password:
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG

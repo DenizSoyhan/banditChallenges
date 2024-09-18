@@ -1,0 +1,12 @@
+when you look at ls -l of setuid files insted of x there is an s bit. this is still an executable file but when you execute this and add some other command it will elevate its priority temporarily.
+
+to use it:
+./bandit20-do cat bandit20
+||
+/home/bandit19/./bandit20-do cat bandit20
+
+put the executable at the start and then use the terminal as you normally would. in this case I dont have the authority to see bandit20 file but this executable lets me do it. after cat bandit20 the password is revealed.
+
+password:
+
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO

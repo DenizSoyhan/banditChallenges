@@ -1,0 +1,18 @@
+I went to the cron configuration file in:
+
+/etc/cron.d
+
+this has the cron script for bandit22 which when I look in it it said:
+
+* * * * * bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+
+which means a script in this address is outputting the results to /dev/null
+I go and check /usr/bin/cronjob_bandit22.sh which showed:
+
+#!/bin/bash
+chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+
+meaning the pass for bandit22 is being written onto the second address /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv which when I check the contents of this file it gave the password:
+
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
