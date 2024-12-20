@@ -1,4 +1,11 @@
-I did the steps in the last exercise and it can be seen in the screenshot
+go to /var/spool/bandit24/foo
+and
 
+ echo "cat /etc/bandit_pass/bandit24 > /tmp/sifrebulundu.txt" > sifrebulucu.sh
+
+and 
+cat /tmp/sifrebulundu.txt
+
+(works every 60 seconds)
 password:
 gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8

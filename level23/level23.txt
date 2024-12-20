@@ -1,1 +1,10 @@
-I think I skipped this level
+the password of the current user is written in a file that the name of it is encrypted with
+md5sum so you need to copy the line and see what md5sum hash it produces:
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1 
+8ca319486bfbbc3663ea0fbe81326349 == is the hash
+
+which you can see the what the file contains:
+cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+
+password:
+0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
